@@ -1,5 +1,5 @@
 # Catalist
-
+t
 The Gobetrotterz:
 - Emre Akilli | [GitLab](https://gitlab.com/emreakilli)
 - Landon Young | [GitLab](https://gitlab.com/lyoung71)
@@ -39,7 +39,7 @@ Aimed at mental-health minded people who have a preference for a colorful, video
 - Having the date info in journals and todos as an actual date property instead of a string.
 
 5. `Onboarding`: Detail the local dev setup, branching strategy, .env, 3rd party api keys, and CI/CD pipeline. :rocket:
-Fork the repo, clone locally, install dependencies via `npm install`, and checkout to a feature branch. We used the API named PokeAPI. PokeAPI uses an API that returns information on magical fictional videogame animals called “Pokemon”. The API is free of use and allows only GET requests. This API did not require the use of a key. The dependencies we downloaded are Tailwind CSS and SASS. 
+Fork the repo, clone locally, install dependencies via `npm install`, and checkout to a feature branch. We used the API named PokeAPI. PokeAPI uses an API that returns information on magical fictional videogame animals called “Pokemon”. The API is free of use and allows only GET requests. This API did not require the use of a key. The dependencies we downloaded are Tailwind CSS and SASS.
 To grab the project:
 Create a folder to place the project in using the terminal
 Make sure to use the <cd> terminal prompt to change directories into the folder you’ve just created
@@ -57,7 +57,7 @@ Lastly, run
 All containers should be running now.
 There should be four containers running. They are listed below:
 api-1: This running container should allow you to interact with your backend/api. This is where all the models, queries, routers, and tests are located. You can view this container in the port localhost:8000/docs
-ghi-1: This running container should show you your front end/ react application on localhost:3000 
+ghi-1: This running container should show you your front end/ react application on localhost:3000
 mongo-1: This container should contain your entire database. This goes hand in hand with Mongo Express, which we use alternatively to manage the database.
 mongo-express-1: This running container allows us to manage and store our data. Specifically, our accounts data, journal data, and tasks data. You can view this on the port localhost:8081
 To run the test:
@@ -92,19 +92,3 @@ Tests if create_journal successfully makes a POST request to create a journal ob
 Joyce:
 Test: “test_update_journal”
 Tests if update_journal successfully makes a PUT request to update a journal object.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
